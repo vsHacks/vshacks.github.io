@@ -1,4 +1,4 @@
-window.onload = function() {
+(function() {
     // This is a vanilla equivalent of the JQuery load function.
     fetch("/navbar.html")
         .then(function(resp) {
@@ -7,5 +7,5 @@ window.onload = function() {
         .then(function(body) {
             document.getElementById("nav-placeholder").innerHTML = body;
         });
-}
+})();
 
