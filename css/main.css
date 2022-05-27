@@ -5,6 +5,13 @@
 
 #header {
     color: #FFFFFF;
-    height: 400px;
+    font-family: 'cocogoose';
+    height: 100vh;
     background: linear-gradient(135deg, #6633f5, #ac19e8);
+}
+
+
+@font-face {
+    font-family: "cocogoose";
+    src: url(../assets/fonts/cocogoose.otf);
 }
