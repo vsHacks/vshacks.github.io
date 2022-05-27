@@ -1,4 +1,4 @@
-# vsb-hackathon.github.io
+# vshacks.github.io
 
 ## Todo
 
