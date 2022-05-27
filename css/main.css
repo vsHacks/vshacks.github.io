@@ -4,6 +4,7 @@
 }
 
 #header {
+    color: #FFFFFF;
     height: 400px;
-    background-color: bisque;
+    background: linear-gradient(135deg, #6633f5, #ac19e8);
 }
