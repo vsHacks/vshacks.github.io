@@ -14,10 +14,14 @@
     padding-bottom: 50px;
 }
 
+#hostTable {
+    margin: 20vh, 0, 0, 20vh;
+}
+
 .vshacks-sectionheader {
+    font-family: 'cocogoose';
     text-align: center;
     font-size: 50px;
-    text-decoration: underline;
     padding: 25px;
 }
 
