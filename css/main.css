@@ -52,6 +52,10 @@
     padding: 20px;
 }
 
+.vshacks-section {
+    margin-top: 10rem;
+}
+
 @font-face {
     font-family: "vshacks-main";
     src: url(../assets/fonts/cocogoose.otf);
@@ -61,5 +65,5 @@
 @font-face {
     font-family: "vshacks-desc";
     src: url(/assets/fonts/baloo.ttf);
-    height: 600em;
+    height: 80em;
 }
