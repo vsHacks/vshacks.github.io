@@ -7,8 +7,11 @@
     color: #FFFFFF;
     font-family: 'cocogoose';
     height: 100vh;
-    background: linear-gradient(135deg, #6633f5, #ac19e8);
-    margin-bottom: 50px;
+    background-image: url("/assets/skyline.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 50px;
 }
 
 .vshacks-sectionheader {
@@ -48,4 +51,5 @@
 @font-face {
     font-family: "cocogoose";
     src: url(../assets/fonts/cocogoose.otf);
+    height: 80em;
 }
