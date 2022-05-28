@@ -8,6 +8,7 @@
     font-family: 'cocogoose';
     height: 100vh;
     background: linear-gradient(135deg, #6633f5, #ac19e8);
+    padding-bottom: 50px;
 }
 
 .vshacks-sectionheader {
@@ -29,6 +30,11 @@
     border-radius: 10px;
     width: 100%;
     margin-top: 20px;
+}
+
+.vshacks-quote {
+    font-style: italic;
+    text-size: 30px;
 }
 
 
