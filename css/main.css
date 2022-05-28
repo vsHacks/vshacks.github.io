@@ -10,10 +10,23 @@
     background: linear-gradient(135deg, #6633f5, #ac19e8);
 }
 
+.vshacks-sectionheader {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    padding: 25px;
+}
+
+.vshacks-miniheader {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 25px;
+}
+
 .vshacks-navmenu {
     padding: .5rem 1rem;
     border-radius: 10px;
-    position: absolute;
     width: 100%;
     margin-top: 20px;
 }
