@@ -1,5 +1,5 @@
 <nav class="vshacks-navmenu navbar navbar-fill navbar-expand-sm navbar-light bg-light" style="position: absolute">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/#">
         <img id="logo" src="/assets/images/icon_black.svg">
     </a>
     
@@ -21,4 +21,13 @@
             <a class="btn btn-outline-danger" href="/register">Register</a>
         </li>
     </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(".nav-link").on("click", function(){
+            $(".nav-link.active").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
 </nav>
+
