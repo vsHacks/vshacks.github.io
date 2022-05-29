@@ -18,13 +18,18 @@
 		
 		</script>
 		<script>
-			function getElementsByText(str, tag = 'a') {
-  			return Array.prototype.slice.call(document.getElementsByTagName(tag)).filter(el => el.textContent.trim() === str.trim());
-		}
-		let toBold = getElementsByText('About');
-			console.log(toBold);
-			toBold.classList.add('active');
-			console.log("made it here");
+		var a = Array.prototype.slice.call(document.querySelectorAll("a"));
+
+		//Array of matches
+		var matches = a.filter(filterElements);
+
+		console.log(matches);
+		matches.classList.add("active");
+
+		//Filter Function
+		function filterElements(element){
+    		return element.textContent === "About";
+}
 		</script>
 
 	    <!-- Start of Header -->
