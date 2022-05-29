@@ -56,6 +56,11 @@
     margin-top: 10rem;
 }
 
+.vshacks-carouseltext {
+    background-color: #000000A0;
+    border-radius: 5vw;
+}
+
 @font-face {
     font-family: "vshacks-main";
     src: url(../assets/fonts/cocogoose.otf);
