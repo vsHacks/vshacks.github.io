@@ -4,20 +4,102 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>VSHackers Hackathon</title>
+		<title>About Us</title>
 		<link rel="stylesheet" href="/css/main.css">
+		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	</head>
 
-	<body>
+	<body class="container-fluid">
 		<noscript>I know JavaScript sucks just enable it the website doesn't work without it. OK?</noscript>
-		<div id="nav-placeholder"></div>
-		<script src="/js/navbar.js"></script>
+		<div id="nav-placeholder" class="sticky-top"><noscript>I know JavaScript sucks just enable it the website doesn't work without it. OK?</noscript></div>
+		<script src="/js/navbar.js">
+		function getElementsByText(str, tag = 'a') {
+  			return Array.prototype.slice.call(document.getElementsByTagName(tag)).filter(el => el.textContent.trim() === str.trim());
+		}
+		let toBold = getElementsByText('About');
+			toBold.classList.add('active');
+		</script>
 
-        <div class="row align-items-center" id="header">
-            <h1 class="display-4"> About Us <h1>
+	    <!-- Start of Header -->
+		<div class="row justify-content-center align-items-center">
+			<h1 class="display-1 text-center" style="margin-top: 15%;">About Us</h1>
+			<div class="container-fluid vshacks-section">
+			<div class="container" style="max-width: 40rem;">
+                <p>
+                    <b>VSHacks</b> is a district-wide initiative composed of various computing clubs around the Greater Vancouver Area. Created in 2022, our organization currently comprises of 8 schools.
+                </p>
+                <br><br>
+            </div>
         </div>
 
+		</div>
+		<!-- End of Header -->
+
+        <!-- About us body -->
+        
+	
+		<!-- Start of Host Pictures -->
+		<div class="container-fluid vshacks-section" style="margin-bottom: 5rem;">
+			<h1 class="vshacks-sectionheader">Meet The Organizers</h1>
+			
+			<div class="container" style="max-width: 70vh;">
+				<!-- Start of Carousel -->
+				<div id="carousel-execs" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carousel-execs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carousel-execs" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carousel-execs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carousel-execs" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					</div>
+
+					<!-- Start of Carousel Images -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="/assets/images/execs/donald.png" class="rounded w-100 d-block">
+							<div class="carousel-caption vshacks-carouseltext">
+								<h5>Donald Lee</h5>
+								<p>VanTech Coding Club</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<img src="/assets/images/execs/vincent.png" class="rounded w-100 d-block">
+							<div class="carousel-caption vshacks-carouseltext">
+								<h5>Vincent Qi</h5>
+								<p>SWC Bulldog Computer Club</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<img src="/assets/images/execs/vibhinn.png" class="rounded w-100 d-block">
+							<div class="carousel-caption vshacks-carouseltext">
+								<h5>Vibhinn Gautam</h5>
+								<p>BCSS Coding Club</p>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<img src="/assets/images/execs/brian.png" class="rounded w-100 d-block">
+							<div class="carousel-caption vshacks-carouseltext">
+								<h5>Brian Han</h5>
+								<p>BNSS Coding Club</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Start of Carousel Controls -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#carousel-execs" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</button>
+
+					<button class="carousel-control-next" type="button" data-bs-target="#carousel-execs" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</button>
+				</div>
+				<!-- End of Carousel -->
+			</div>
+		</div>
 	</body>
 </html>
