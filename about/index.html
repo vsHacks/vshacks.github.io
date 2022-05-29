@@ -14,7 +14,13 @@
 	<body class="container-fluid">
 		<noscript>I know JavaScript sucks just enable it the website doesn't work without it. OK?</noscript>
 		<div id="nav-placeholder" class="sticky-top"><noscript>I know JavaScript sucks just enable it the website doesn't work without it. OK?</noscript></div>
-		<script src="/js/navbar.js"></script>
+		<script src="/js/navbar.js">
+		function getElementsByText(str, tag = 'a') {
+  			return Array.prototype.slice.call(document.getElementsByTagName(tag)).filter(el => el.textContent.trim() === str.trim());
+		}
+		let toBold = getElementsByText('About');
+			toBold.classList.add('active');
+		</script>
 
 	    <!-- Start of Header -->
 		<div class="row justify-content-center align-items-center">
