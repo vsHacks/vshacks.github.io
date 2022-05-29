@@ -19,17 +19,10 @@
 		</script>
 		<script>
 		var a = Array.prototype.slice.call(document.querySelectorAll("a"));
-
+		console.log(a.length);
+		a[1].classList.add("active");
 		//Array of matches
-		var matches = a.filter(filterElements);
-
-		console.log(matches);
-		matches.classList.add("active");
-
-		//Filter Function
-		function filterElements(element){
-    		return element.textContent === "About";
-}
+		
 		</script>
 
 	    <!-- Start of Header -->
