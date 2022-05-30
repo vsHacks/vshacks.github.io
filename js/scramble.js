@@ -33,13 +33,9 @@ class TextScrambler {
         let scrambledText = this._originalText.slice(0, this._unscrambled);
         while (scrambledText.length < this._textLength) {
             // The ASCII charset spans from 0 to 128. Characters below 32 are control characters,
-            // as is character 127; 128 is an accentated character. Additionally, the '@' character
-            // (64) is not displayed properly in the font we use.
-            let char = 0;
-            do {
-                char = randomInt(32, 126);
-            } while (char === 64);
-            scrambledText += String.fromCharCode(char);
+            // as is character 127; 128 is an accentated character. That leaves characters 32
+            // through 126 as valid candidates for output characters.
+            scrambledText += String.fromCharCode(randomInt(32, 126));
         }
         this._el.textContent = scrambledText;
     }
