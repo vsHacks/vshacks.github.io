@@ -20,6 +20,10 @@
     animation-iteration-count: infinite;
 }
 
+#header-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #description {
     font-family: 'vshacks-desc';
 }
