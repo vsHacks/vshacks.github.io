@@ -97,11 +97,11 @@
 .content {
     
     padding: 0px 18px;
-    
+    margin-top: 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  border-radius: 15px;
+    border-radius: 15px;
     
     background-color: #f1f1f1;
 }
