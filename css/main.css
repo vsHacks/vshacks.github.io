@@ -85,9 +85,9 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 20px;
-    border-radius: 5px;
+  border-radius: 15px;
 }
 
 #coll .active, .collapsible:hover {
@@ -95,10 +95,16 @@
 }
 
 .content {
-    padding: 10px 18px;
+    
+    padding: 0px 18px;
+    
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  border-radius: 15px;
+    
     background-color: #f1f1f1;
-    border-radius: 5px;
+}
+#ren {
+  margin-top: 10px;
 }
