@@ -68,8 +68,8 @@ function randomInt(lo, hi) {
 
 const headerTitle = document.getElementById('header-title');
 const scrambler = new TextScrambler(headerTitle, {
-    scrambleInterval: 50,
-    unscrambleDelay: 300,
+    scrambleInterval: 30,
+    unscrambleDelay: 400,
     duration: 1500,
 });
 

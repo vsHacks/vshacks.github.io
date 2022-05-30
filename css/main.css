@@ -73,6 +73,11 @@
     width: 100%;
 }
 
+.vshacks-sponsor {
+    max-width: 30rem;
+    padding: 2rem;
+}
+
 .vshacks-title {
     font-family: 'vshacks-main';
     font-size: 5vw;
