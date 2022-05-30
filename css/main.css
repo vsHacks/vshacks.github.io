@@ -7,12 +7,17 @@
     color: #FFFFFF;
     font-family: 'vshacks-main';
     height: 100vh;
-    background-image: url("/assets/skyline.png");
+    background-image: url("/assets/images/background/skyline.png");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: bottom;
     padding-bottom: 50px;
     margin-bottom: 20px;
+
+    animation-name: scroll;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 #description {
@@ -115,3 +120,9 @@
   max-width: 70vw;
   margin-left: 15vw;
 }
+
+/* The animation code */
+@keyframes scroll {
+    from {background-position-x: 0vw;}
+    to {background-position-x: 100vw;}
+  }
