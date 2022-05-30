@@ -57,7 +57,10 @@
 
 .vshacks-carouseltext {
     background-color: #000000A0;
-    border-radius: 5vw;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 100%;
 }
 
 .vshacks-title {
