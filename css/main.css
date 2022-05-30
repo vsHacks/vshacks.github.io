@@ -24,8 +24,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-#description {
-    font-family: 'vshacks-desc';
+#main-description {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF00;
 }
 
 .vshacks-sectionheader {
@@ -77,17 +78,10 @@
     font-size: 5vw;
 }
 
-@font-face {
-    font-family: "vshacks-main";
-    src: url(../assets/fonts/cocogoose.otf);
-    height: 80em;
+.vshacks-description {
+    font-family: 'vshacks-desc';
 }
 
-@font-face {
-    font-family: "vshacks-desc";
-    src: url(/assets/fonts/baloo.ttf);
-    height: 80em;
-}
 .collapsible {
     background-color: #777;
     color: white;
@@ -125,8 +119,25 @@
   margin-left: 15vw;
 }
 
+@font-face {
+    font-family: "vshacks-main";
+    src: url(../assets/fonts/cocogoose.otf);
+    height: 80em;
+}
+
+@font-face {
+    font-family: "vshacks-desc";
+    src: url(/assets/fonts/immono.otf);
+    height: 80em;
+}
+
 /* The animation code */
 @keyframes scroll {
     from {background-position-x: 0vw;}
     to {background-position-x: 100vw;}
-  }
+}
+
+@keyframes fadeIn {
+    from {color: #FFFFFF00;}
+    to {color: #FFFFFFFF;}
+}
