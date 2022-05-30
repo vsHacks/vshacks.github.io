@@ -79,3 +79,39 @@
     src: url(/assets/fonts/baloo.ttf);
     height: 80em;
 }
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+  border-radius: 15px;
+}
+
+#coll .active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    
+    padding: 0px 18px;
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-radius: 15px;
+    
+    background-color: #f1f1f1;
+}
+#ren {
+  margin-top: 10px;
+}
+.smallerfaq {
+  max-width: 70vw;
+  margin-left: 15vw;
+}
