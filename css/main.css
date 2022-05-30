@@ -108,3 +108,7 @@
 #ren {
   margin-top: 10px;
 }
+.smallerfaq {
+  max-width: 70vw;
+  margin-left: 15vw;
+}
