@@ -47,8 +47,8 @@ class TextScrambler {
     _unscrambleOne() {
         if (this._unscrambled >= this._textLength) return clearInterval(this._unscrambleTimer);
         this._unscrambled++;
-        this._el.textContent = this._originalText.slice(0, this._unscrambled)
-            + this._el.textContent.slice(this._unscrambled);
+        this._el.textContent =
+            this._originalText.slice(0, this._unscrambled) + this._el.textContent.slice(this._unscrambled);
     }
 
     /**
@@ -75,5 +75,5 @@ const scrambler = new TextScrambler(headerTitle, {
 
 scrambler.start();
 setTimeout(() => {
-    document.getElementById("main-description").style.animation = "fadeIn 1s ease 0.1s 1 normal forwards"
-}, 1500)
+    document.getElementById('main-description').style.animation = 'fadeIn 1s ease 0.1s 1 normal forwards';
+}, 1500);
