@@ -138,15 +138,22 @@
 }
 
 .vshacks-statscard {
+	transition: transform 0.25s ease;
 	color: white;
-	margin: 5px;
+	margin: 8px;
 	border-radius: 10px;
+	padding-left: 16px;
+	padding-block-start: 12px;
+	padding-block-end: 12px;
+}
+
+.vshacks-statscard:hover {
+	transform: scale(1.05);
 }
 
 .vshacks-statstitle {
 	font-family: "vshacks-main";
-	padding-left: 5px;
-	padding-top: 5px;
+	font-size: 2rem;
 }
 
 .content {
