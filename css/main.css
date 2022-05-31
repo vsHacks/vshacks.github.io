@@ -49,13 +49,35 @@
 }
 
 .vshacks-navmenu {
-	padding: 0.5rem 1rem;
-	border-radius: 10px;
+	font-family: 'Poppins';
+	padding-left: 24px;
+	padding-right: 24px;
 	width: 100%;
-	margin-top: 20px;
-	color: black;
-	background: rgba(0, 0, 0, 0.8);
-	backdrop-filter: blur(6px);
+	background: transparent !important;
+}
+
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: #0087ca;
+}
+
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #0087ca;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 .vshacks-quote {
@@ -112,6 +134,11 @@
 	height: 80em;
 }
 
+@font-face {
+	font-family: 'Poppins';
+	src: url(../assets/fonts/poppins.ttf);
+}
+
 /* The animation code */
 @keyframes scroll {
 	from {
@@ -132,5 +159,9 @@
 }
 
 footer {
-	padding-top: 20px;
+	margin-top: 30px;
+}
+
+html {
+	overflow-x: hidden;
 }
