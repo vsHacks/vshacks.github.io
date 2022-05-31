@@ -154,6 +154,7 @@
 .vshacks-statstitle {
 	font-family: "vshacks-main";
 	font-size: 2rem;
+	max-width: 5rem;
 }
 
 .content {
