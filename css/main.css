@@ -1,148 +1,166 @@
 #logo {
-    width: 50px;
-    height:50px;
+	width: 50px;
+	height: 50px;
 }
 
 #header {
-    color: #FFFFFF;
-    font-family: 'vshacks-main';
-    height: 100vh;
-    background-image: url("/assets/images/background/skyline.png");
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: bottom;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+	color: #ffffff;
+	font-family: 'vshacks-main';
+	height: 100vh;
+	background-image: url('/assets/images/background/skyline.png');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: bottom;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
 
-    animation-name: scroll;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+	animation-name: scroll;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 #header-title {
-    font-family: 'Courier New', Courier, monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #main-description {
-    font-family: 'Courier New', Courier, monospace;
-    color: #FFFFFF00;
+	font-family: 'Courier New', Courier, monospace;
+	color: #ffffff00;
+}
+
+#noscript-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
 }
 
 .vshacks-sectionheader {
-    font-family: 'vshacks-main';
-    text-align: center;
-    font-size: 50px;
-    padding: 25px;
+	font-family: 'vshacks-main';
+	text-align: center;
+	font-size: 50px;
+	padding: 25px;
 }
 
 .vshacks-miniheader {
-    font-size: 25px;
-    text-decoration: underline;
-    padding: 25px;
+	font-size: 25px;
+	text-decoration: underline;
+	padding: 25px;
 }
 
 .vshacks-navmenu {
-    padding: .5rem 1rem;
-    border-radius: 10px;
-    width: 100%;
-    margin-top: 20px;
-    color: black;
-    background: rgba(0,0,0,0.8);
-    backdrop-filter: blur(6px);
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	width: 100%;
+	margin-top: 20px;
+	color: black;
+	background: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(6px);
 }
 
 .vshacks-quote {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 25px;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
 }
 
 .vshacks-section {
-    margin-top: 10rem;
+	margin-top: 10rem;
 }
 
 .vshacks-carouseltext {
-    background-color: #000000A0;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    width: 100%;
+	background-color: #000000a0;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	width: 100%;
 }
 
 .vshacks-sponsor {
-    max-width: 30rem;
-    padding: 2rem;
+	max-width: 30rem;
+	padding: 2rem;
 }
 
 .vshacks-title {
-    font-family: 'vshacks-main';
-    font-size: 5vw;
+	font-family: 'vshacks-main';
+	font-size: 5vw;
 }
 
 .vshacks-description {
-    font-family: 'vshacks-desc';
+	font-family: 'vshacks-desc';
 }
 
 .collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    margin-top: 20px;
-  border-radius: 15px;
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 20px;
+	margin-top: 20px;
+	border-radius: 15px;
 }
 
-#coll .active, .collapsible:hover {
-    background-color: #555;
+#coll .active,
+.collapsible:hover {
+	background-color: #555;
 }
 
 .content {
-    
-    padding: 0px 18px;
-    margin-top: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-radius: 15px;
-    
-    background-color: #f1f1f1;
+	padding: 0px 18px;
+	margin-top: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-radius: 15px;
+
+	background-color: #f1f1f1;
 }
 #ren {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 .smallerfaq {
-  max-width: 70vw;
-  margin-left: 15vw;
+	max-width: 70vw;
+	margin-left: 15vw;
 }
 
 @font-face {
-    font-family: "vshacks-main";
-    src: url(../assets/fonts/cocogoose.otf);
-    height: 80em;
+	font-family: 'vshacks-main';
+	src: url(../assets/fonts/cocogoose.otf);
+	height: 80em;
 }
 
 @font-face {
-    font-family: "vshacks-desc";
-    src: url(/assets/fonts/immono.otf);
-    height: 80em;
+	font-family: 'vshacks-desc';
+	src: url(/assets/fonts/immono.otf);
+	height: 80em;
 }
 
 /* The animation code */
 @keyframes scroll {
-    from {background-position-x: 0vw;}
-    to {background-position-x: 100vw;}
+	from {
+		background-position-x: 0vw;
+	}
+	to {
+		background-position-x: 100vw;
+	}
 }
 
 @keyframes fadeIn {
-    from {color: #FFFFFF00;}
-    to {color: #FFFFFFFF;}
+	from {
+		color: #ffffff00;
+	}
+	to {
+		color: #ffffffff;
+	}
 }
