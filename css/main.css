@@ -1,117 +1,171 @@
 #logo {
-    width: 50px;
-    height:50px;
+	width: 50px;
+	height: 50px;
 }
 
 #header {
-    color: #FFFFFF;
-    font-family: 'vshacks-main';
-    height: 100vh;
-    background-image: url("/assets/skyline.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+	color: #ffffff;
+	font-family: 'Fira Code';
+	height: 100vh;
+	background-image: url('/assets/images/background/skyline.png');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: bottom;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+
+	animation-name: scroll;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 #description {
-    font-family: 'vshacks-desc';
+	font-family: 'Fira Code';
+	color: #ffffff00;
+}
+
+#noscript-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
 }
 
 .vshacks-sectionheader {
-    font-family: 'vshacks-main';
-    text-align: center;
-    font-size: 50px;
-    padding: 25px;
-}
-
-.vshacks-miniheader {
-    font-size: 25px;
-    text-decoration: underline;
-    padding: 25px;
+	font-family: 'vshacks-main';
+	text-align: center;
+	font-size: 50px;
+	padding: 25px;
 }
 
 .vshacks-navmenu {
-    padding: .5rem 1rem;
-    border-radius: 10px;
-    width: 100%;
-    margin-top: 20px;
-    color: black;
-    background: rgba(0,0,0,0.8);
-    backdrop-filter: blur(6px);
+	font-family: 'Poppins';
+	padding-left: 24px;
+	padding-right: 24px;
+	width: 100%;
+	background: transparent !important;
+}
+
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: #0087ca;
+}
+
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #0087ca;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 .vshacks-quote {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 25px;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
 }
 
 .vshacks-section {
-    margin-top: 10rem;
+	margin-top: 5rem;
 }
 
 .vshacks-carouseltext {
-    background-color: #000000A0;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    width: 100%;
+	background-color: #000000a0;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	width: 100%;
+}
+
+.vshacks-faqbutton {
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+.vshacks-sponsor {
+	transition: transform 0.25s ease;
+	max-width: 30rem;
+	padding: 2rem;
+}
+
+.vshacks-sponsor:hover {
+	transform: scale(1.05);
 }
 
 .vshacks-title {
-    font-family: 'vshacks-main';
-    font-size: 5vw;
-}
-
-@font-face {
-    font-family: "vshacks-main";
-    src: url(../assets/fonts/cocogoose.otf);
-    height: 80em;
-}
-
-@font-face {
-    font-family: "vshacks-desc";
-    src: url(/assets/fonts/baloo.ttf);
-    height: 80em;
-}
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    margin-top: 20px;
-  border-radius: 15px;
-}
-
-#coll .active, .collapsible:hover {
-    background-color: #555;
+	font-family: 'vshacks-main';
+	font-size: 5vw;
 }
 
 .content {
-    
-    padding: 0px 18px;
-    margin-top: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-radius: 15px;
-    
-    background-color: #f1f1f1;
+	padding: 0px 18px;
+	margin-top: 10px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-radius: 15px;
+
+	background-color: #f1f1f1;
 }
-#ren {
-  margin-top: 10px;
+
+@font-face {
+	font-family: 'vshacks-main';
+	src: url(../assets/fonts/cocogoose.otf);
+	height: 80em;
 }
-.smallerfaq {
-  max-width: 70vw;
-  margin-left: 15vw;
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(../assets/fonts/poppins.ttf);
+}
+
+@font-face {
+	font-family: 'Fira Code';
+	src: url(../assets/fonts/fira-code.ttf);
+}
+
+/* The animation code */
+@keyframes scroll {
+	from {
+		background-position-x: 0vw;
+	}
+	to {
+		background-position-x: 100vw;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		color: #ffffff00;
+	}
+	to {
+		color: #ffffffff;
+	}
+}
+
+footer {
+	margin-top: 30px;
+}
+
+html {
+	overflow-x: hidden;
 }
