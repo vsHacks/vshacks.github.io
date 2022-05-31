@@ -30,12 +30,27 @@
 	font-family: 'Fira Code';
 }
 
+#navbar-collapse-button {
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+	border: none;
+	opacity: 0.6;
+}
+
+#navbar-collapse-button:hover {
+	opacity: 1;
+}
+
+#register-button {
+	margin-bottom: 12px;
+}
+
 #noscript-container {
 	position: fixed;
 	top: 0px;
 	left: 0px;
 	z-index: 9999;
-	height: 100%;
 	width: 100%;
 	background-color: #ffffff;
 }
@@ -54,6 +69,7 @@
 	width: 100%;
 	background: transparent;
 }
+
 
 .hover-underline-animation {
 	display: inline-block;
