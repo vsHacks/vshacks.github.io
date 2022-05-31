@@ -75,5 +75,5 @@ const scrambler = new TextScrambler(headerTitle, {
 
 scrambler.start();
 setTimeout(() => {
-    document.getElementById('description').style.animation = 'fadeIn 1.3s ease 0.2s 1 normal forwards';
+    document.getElementById('main-description').style.animation = 'fadeIn 1.3s ease 0.2s 1 normal forwards';
 }, 1500);
