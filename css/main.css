@@ -5,7 +5,7 @@
 
 #header {
 	color: #ffffff;
-	font-family: 'vshacks-main';
+	font-family: 'Courier New', Courier, monospace;
 	height: 100vh;
 	background-image: url('/assets/images/background/skyline.png');
 	background-size: cover;
@@ -20,11 +20,7 @@
 	animation-iteration-count: infinite;
 }
 
-#header-title {
-	font-family: 'Courier New', Courier, monospace;
-}
-
-#main-description {
+#description {
 	font-family: 'Courier New', Courier, monospace;
 	color: #ffffff00;
 }
@@ -83,6 +79,12 @@
 	width: 100%;
 }
 
+.vshacks-faqbutton {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
 .vshacks-sponsor {
 	max-width: 30rem;
 	padding: 2rem;
@@ -91,10 +93,6 @@
 .vshacks-title {
 	font-family: 'vshacks-main';
 	font-size: 5vw;
-}
-
-.vshacks-description {
-	font-family: 'vshacks-desc';
 }
 
 .content {
@@ -111,12 +109,6 @@
 @font-face {
 	font-family: 'vshacks-main';
 	src: url(../assets/fonts/cocogoose.otf);
-	height: 80em;
-}
-
-@font-face {
-	font-family: 'vshacks-desc';
-	src: url(/assets/fonts/immono.otf);
 	height: 80em;
 }
 
