@@ -115,16 +115,15 @@
 
 			<div class="container-fluid">
 				<a href="https://www.taskade.com/">
-					<img class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/taskade.png">
+					<img class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/taskade.png" />
 				</a>
-				
+
 				<a href="https://www.echo3d.co/">
-					<img class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/echo3d.png">
+					<img class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/echo3d.png" />
 				</a>
-			
 			</div>
 
-			<div class="container-fluid text-center" style="margin-top: 2rem;">
+			<div class="container-fluid text-center" style="margin-top: 2rem">
 				<a class="btn btn-danger" href="/assets/documents/sponsorship-package.pdf">View our Sponsorship Package!</a>
 			</div>
 		</div>
@@ -219,37 +218,88 @@
 		<!-- End of Hosts Section -->
 
 		<!-- Start of FAQ Section -->
-		<div class="container-fluid vshacks-section">
+		<div class="container-fluid vshacks-section" style="max-width: 60rem">
 			<h1 class="vshacks-sectionheader">Frequently Asked Questions</h1>
-			<div class="container" style="max-width: 60rem">
-				<button type="button" class="collapsible" id="coll">Q. Wait? A HACKathon? Isn't hacking illegal?</button>
-				<div class="content">
-					<p id="ren">
-						Although the media likes to portray hacking as an illegal activity, hacking also means to build a piece of
-						software to solve a problem!
-					</p>
+			<div class="accordion" id="faq-accordion">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="faq-header-hackathon-hack">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#faq-body-hackathon-hack"
+							aria-expanded="false"
+							aria-controls="faq-body-hackathon-hack"
+						>
+							Q. Wait? A HACKathon? Isn't hacking illegal?
+						</button>
+					</h2>
+					<div
+						id="faq-body-hackathon-hack"
+						class="accordion-collapse collapse"
+						aria-labelledby="faq-header-hackathon-hack"
+						data-bs-parent="#faq-accordion"
+					>
+						<div class="accordion-body">
+							Although the media likes to portray hacking as an illegal activity, hacking also means to build a piece of
+							software to solve a problem!
+						</div>
+					</div>
 				</div>
 
-				<button type="button" class="collapsible" id="coll">Q. Is there an entry fee?</button>
-				<div class="content">
-					<p id="ren">
-						Nope! vsHacks is and will be completely free to participate in, although we might accept donations in the
-						future.
-					</p>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="faq-header-entry-fee">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#faq-body-entry-fee"
+							aria-expanded="false"
+							aria-controls="faq-body-entry-fee"
+						>
+							Q. Is there an entry fee?
+						</button>
+					</h2>
+					<div
+						id="faq-body-entry-fee"
+						class="accordion-collapse collapse"
+						aria-labelledby="faq-header-entry-fee"
+						data-bs-parent="#faq-accordion"
+					>
+						<div class="accordion-body">
+							Nope! vsHacks is and will be completely free to participate in, although we might accept donations in the
+							future.
+						</div>
+					</div>
 				</div>
 
-				<button type="button" class="collapsible" id="coll">
-					Q. If I dont attend one of the hosting schools, can I still join?
-				</button>
-				<div class="content">
-					<p id="ren">
-						The main registration forms currently support students from either VSB or SD41, but there is another one if
-						you are not from either of these districts!
-					</p>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="faq-header-other-schools">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#faq-body-other-schools"
+							aria-expanded="false"
+							aria-controls="faq-body-other-schools"
+						>
+							Q. If I don't attend any of the hosting schools, can I still join?
+						</button>
+					</h2>
+					<div
+						id="faq-body-other-schools"
+						class="accordion-collapse collapse"
+						aria-labelledby="faq-header-other-schools"
+						data-bs-parent="#faq-accordion"
+					>
+						<div class="accordion-body">
+							Although the media likes to portray hacking as an illegal activity, hacking also means to build a piece of
+							software to solve a problem!
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<script src="/js/collapse.js"></script>
 		<script src="/js/scramble.js"></script>
 		<!-- End of FAQ Section -->
 
