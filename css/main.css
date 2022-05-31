@@ -136,6 +136,18 @@
 	font-size: 5vw;
 }
 
+.vshacks-statscard {
+	color: white;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.vshacks-statstitle {
+	font-family: "vshacks-main";
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
 .content {
 	padding: 0px 18px;
 	margin-top: 10px;
