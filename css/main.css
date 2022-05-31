@@ -68,7 +68,7 @@
 }
 
 .vshacks-section {
-	margin-top: 10rem;
+	margin-top: 5rem;
 }
 
 .vshacks-carouseltext {
@@ -81,9 +81,9 @@
 }
 
 .vshacks-faqbutton {
-    outline:0px !important;
-    -webkit-appearance:none;
-    box-shadow: none !important;
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
 }
 
 .vshacks-sponsor {
