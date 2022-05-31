@@ -20,7 +20,8 @@
 	animation-iteration-count: infinite;
 }
 
-#main-description {
+#main-description,
+#header-date {
 	font-family: 'Fira Code';
 	color: #ffffff00;
 }
