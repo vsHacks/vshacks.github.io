@@ -29,6 +29,10 @@
 	font-family: 'Fira Code';
 }
 
+#register-button {
+	margin-bottom: 12px;
+}
+
 #noscript-container {
 	position: fixed;
 	top: 0px;
