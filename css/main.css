@@ -5,7 +5,7 @@
 
 #header {
 	color: #ffffff;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Fira Code';
 	height: 100vh;
 	background-image: url('/assets/images/background/skyline.png');
 	background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 #description {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Fira Code';
 	color: #ffffff00;
 }
 
@@ -137,6 +137,11 @@
 @font-face {
 	font-family: 'Poppins';
 	src: url(../assets/fonts/poppins.ttf);
+}
+
+@font-face {
+	font-family: 'Fira Code';
+	src: url(../assets/fonts/fira-code.ttf);
 }
 
 /* The animation code */
