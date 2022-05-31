@@ -1,29 +1,47 @@
-<nav class="vshacks-navmenu navbar navbar-fill navbar-expand-sm navbar-dark" style="position: absolute">
+<nav
+	class="vshacks-navmenu navbar navbar-fill navbar-expand-sm navbar-dark"
+	style="position: absolute"
+	id="vshacks-nav"
+>
 	<a class="navbar-brand" href="/#">
 		<img id="logo" src="/assets/images/icon_white.svg" />
 	</a>
+	<button
+		class="navbar-toggler"
+		type="button"
+		data-bs-toggle="collapse"
+		data-bs-target="#navbar-body"
+		aria-controls="navbar-body"
+		aria-expanded="false"
+		aria-label="Toggle navigation"
+		id="navbar-collapse-button"
+	>
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		<li class="nav-item">
-			<a class="nav-link active hover-underline-animation" href="/about">About</a>
-		</li>
+	<div class="navbar-collapse collapse" id="navbar-body">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+				<a class="nav-link active hover-underline-animation" href="/about">About</a>
+			</li>
 
-		<li class="nav-item">
-			<a class="nav-link active hover-underline-animation" href="/#sponsors">Sponsors</a>
-		</li>
+			<li class="nav-item">
+				<a class="nav-link active hover-underline-animation" href="/#sponsors">Sponsors</a>
+			</li>
 
-		<li class="nav-item">
-			<a class="nav-link active hover-underline-animation" href="/#faq">FAQ</a>
-		</li>
+			<li class="nav-item">
+				<a class="nav-link active hover-underline-animation" href="/#faq">FAQ</a>
+			</li>
 
-		<li class="nav-item">
-			<a class="nav-link active hover-underline-animation" href="/schedule">Schedule</a>
-		</li>
-	</ul>
+			<li class="nav-item">
+				<a class="nav-link active hover-underline-animation" href="/schedule">Schedule</a>
+			</li>
+		</ul>
 
-	<ul class="navbar-nav ms-auto">
-		<li class="nav-item">
-			<a class="btn btn-outline-info" href="/register">Register</a>
-		</li>
-	</ul>
+		<ul class="navbar-nav ms-auto">
+			<li class="nav-item">
+				<a class="btn btn-outline-info" href="/register">Register</a>
+			</li>
+		</ul>
+	</div>
 </nav>
