@@ -70,7 +70,6 @@
 	background: transparent;
 }
 
-
 .hover-underline-animation {
 	display: inline-block;
 	position: relative;
@@ -152,7 +151,7 @@
 }
 
 .vshacks-statstitle {
-	font-family: "vshacks-main";
+	font-family: 'vshacks-main';
 	font-size: 2rem;
 	max-width: 5rem;
 }
@@ -179,6 +178,10 @@
 	background-color: #f1f1f1;
 }
 
+:root {
+	--bs-font-sans-serif: 'DM Sans' !important;
+}
+
 @font-face {
 	font-family: 'vshacks-main';
 	src: url(../assets/fonts/cocogoose.otf);
@@ -193,6 +196,11 @@
 @font-face {
 	font-family: 'Fira Code';
 	src: url(../assets/fonts/fira-code.ttf);
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url(../assets/fonts/dm-sans.ttf);
 }
 
 /* The animation code */
