@@ -5,9 +5,11 @@
 body {
 	background: url('/assets/images/background/skyline-transparent.png') bottom repeat-x fixed padding-box border-box,
 		linear-gradient(to bottom, #270240, #0a0543, #073e3e) 100%;
-		background-size: var(--skyline-size);
+	background-size: var(--skyline-size);
+	background-attachment: fixed;
+	
 	animation-name: scroll;
-	animation-duration: 60s;
+	animation-duration: 100s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
