@@ -7,10 +7,8 @@
 		<title>Vancouver Schools Hackathon</title>
 		<link rel="stylesheet" href="/css/main.css" />
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.min.css"
 			rel="stylesheet"
-			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-			crossorigin="anonymous"
 		/>
 		<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
 		<script
@@ -55,7 +53,6 @@
 			<div class="container-sm d-flex flex-column" style="max-width: 60rem; margin-top: 2.5rem">
 				<div
 					class="card text-white vshacks-infocard"
-					style="background-image: linear-gradient(-45deg, #6e20c1, #a15aed)"
 				>
 					<div class="row g-4">
 						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
@@ -78,8 +75,7 @@
 				</div>
 
 				<div
-					class="card bg-light text-white align-self-end vshacks-infocard"
-					style="background-image: linear-gradient(-45deg, #4a33de, #7d54f0)"
+					class="card text-white align-self-end vshacks-infocard"
 				>
 					<div class="row g-4">
 						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
@@ -103,8 +99,7 @@
 				</div>
 
 				<div
-					class="card bg-success text-white vshacks-infocard"
-					style="background-image: linear-gradient(-45deg, #2b7ddb, #79c3f4)"
+					class="card text-white vshacks-infocard"
 				>
 					<div class="row g-4">
 						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
@@ -127,8 +122,7 @@
 				</div>
 
 				<div
-					class="card bg-info text-white align-self-end vshacks-infocard"
-					style="background-image: linear-gradient(-45deg, #29adbb, #78dbcf); padding-right: 5rem"
+					class="card text-white align-self-end vshacks-infocard"
 				>
 					<div class="row g-4">
 						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
@@ -157,7 +151,7 @@
 			<div class="container-sm vshacks-section">
 				<h1 id="faq" class="vshacks-sectionheader">Frequently Asked Questions</h1>
 				<div class="accordion" id="faq-accordion">
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-what-is-a-hackathon">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -182,7 +176,7 @@
 						</div>
 					</div>
 
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-no-programming-friends">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -208,7 +202,7 @@
 						</div>
 					</div>
 
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-hackathon-hack">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -233,7 +227,7 @@
 						</div>
 					</div>
 
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-entry-fee">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -254,7 +248,7 @@
 						</div>
 					</div>
 
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-other-schools">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -276,7 +270,7 @@
 						</div>
 					</div>
 
-					<div class="accordion-item">
+					<div class="accordion-item vshacks-faq">
 						<h2 class="accordion-header" id="faq-header-experience">
 							<button
 								class="accordion-button collapsed vshacks-faqbutton"
@@ -305,13 +299,6 @@
 			<div class="container-fluid vshacks-section text-center">
 				<h1 id="sponsors" class="vshacks-sectionheader">Sponsors</h1>
 
-				<div class="alert alert-success container-sm" role="alert">
-					If your company or organization is interested in sponsoring vsHacks, please get in touch through email:
-					<a href="mailto:contact@vshacks.tech">contact@vshacks.tech</a>.<br />
-					Please see our <a href="/assets/documents/sponsorship-package.pdf">sponsorship package</a>
-					for further details.
-				</div>
-
 				<a href="https://replit.com/~">
 					<img
 						width="400"
@@ -339,10 +326,17 @@
 				</a>
 
 				<a href="https://gen.xyz/">
-					<img width="300" class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/xyz.svg" />
+					<img width="250" class="img-fluid mx-auto d-block vshacks-sponsor" src="/assets/images/sponsors/xyz.svg" />
 				</a>
+
+				<div class="alert alert-info container-sm" role="alert" style="color: white !important;">
+					If your company or organization is interested in sponsoring vsHacks, please get in touch through email:
+					<a href="mailto:contact@vshacks.tech" style="color: #967af4">contact@vshacks.tech</a>.<br />
+					Please see our <a href="/assets/documents/sponsorship-package.pdf" style="color: #967af4">sponsorship package</a>
+					for further details.
+				</div>
 			</div>
-			<!-- End "of Sponsors Section -->
+			<!-- End of Sponsors Section -->
 
 			<!-- Start of Hosts Section-->
 			<div class="container-fluid vshacks-section">
@@ -350,100 +344,111 @@
 
 				<div class="container-sm text-center">
 					<div class="row">
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/bcss.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Burnaby Central Secondary</p>
+							<p style="margin-top: 1rem !important">Burnaby Central Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/bnss.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Burnaby North Secondary</p>
+							<p style="margin-top: 1rem !important">Burnaby North Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/dt.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>David Thompson Secondary</p>
+							<p style="margin-top: 1rem !important">David Thompson Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/eh.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Eric Hamber Secondary</p>
+							<p style="margin-top: 1rem !important">Eric Hamber Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/jo.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>John Oliver Secondary</p>
+							<p style="margin-top: 1rem !important">John Oliver Secondary</p>
 						</div>
 					</div>
 
 					<div class="row mt-5">
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/kss.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Killarney Secondary</p>
+							<p style="margin-top: 1rem !important">Killarney Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/lb.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Lord Byng Secondary</p>
+							<p style="margin-top: 1rem !important">Lord Byng Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/swc.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Sir Winston Churchill Secondary</p>
+							<p style="margin-top: 1rem !important">Sir Winston Churchill Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/uhill.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>University Hill Secondary</p>
+							<p style="margin-top: 1rem !important">University Hill Secondary</p>
 						</div>
 
-						<div class="col-sm">
+						<div class="col-sm vshacks-clublogo">
 							<img
 								width="200px"
 								src="/assets/images/clubs/vt.png"
-								class="rounded-circle img-fluid shadow p-2 mb-5 bg-white rounded vshacks-clublogo"
+								class="border border-5 rounded-circle img-fluid"
+								style="border-color: white !important;"
 							/><br />
-							<p>Vancouver Technical Secondary</p>
+							<p style="margin-top: 1rem !important">Vancouver Technical Secondary</p>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<!-- End of Hosts Section -->
 		</div>
 

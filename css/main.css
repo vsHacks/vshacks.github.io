@@ -121,10 +121,17 @@ body {
 	width: 100%;
 }
 
+.vshacks-faq {
+	background-color: transparent !important;
+	border: none !important;
+}
+
 .vshacks-faqbutton {
 	outline: 0px !important;
 	-webkit-appearance: none;
 	box-shadow: none !important;
+	background-color: transparent !important;
+	border: none !important;
 }
 
 .vshacks-sponsor {
@@ -167,9 +174,20 @@ body {
 	max-width: 40rem;
 	padding: 5px;
 	margin-bottom: 3rem;
+	background-color: transparent !important;
+	border: none !important;
 }
 
 .vshacks-infocard:hover {
+	transform: scale(1.05);
+}
+
+.vshacks-clublogo {
+	margin-bottom: 1rem !important;
+	transition: transform 0.25s ease;
+}
+
+.vshacks-clublogo:hover {
 	transform: scale(1.05);
 }
 
