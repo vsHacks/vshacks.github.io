@@ -12,6 +12,8 @@ body {
 	animation-duration: 100s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+
+	overflow-x: hidden;
 }
 
 #logo {
