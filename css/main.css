@@ -1,15 +1,11 @@
 body {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-image: url('/assets/images/background/skyline.png');
-	background-size: cover;
-	background-position: bottom;
-	background-repeat: repeat;
-
+	background: url('/assets/images/background/skyline-transparent.png') bottom repeat-x fixed padding-box border-box,
+		linear-gradient(to bottom, #310e68, #410a2c) 100%;
 	animation-name: scroll;
 	animation-duration: 60s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	background-color: #310e68;
 }
 
 #logo {
