@@ -113,7 +113,12 @@ body {
 	margin-top: 5rem;
 }
 
+.vshacks-carouselbutton {
+	background-color: white !important;
+}
+
 .vshacks-carouseltext {
+	color: white;
 	background-color: #000000a0;
 	border-radius: 10px;
 	padding-top: 10px;
