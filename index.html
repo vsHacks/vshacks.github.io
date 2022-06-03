@@ -23,6 +23,8 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</head>
 
 	<body>
@@ -31,6 +33,10 @@
 				<p style="margin-left: 10px">Please enable JavaScript; this website will not work properly without it.</p>
 			</div>
 		</noscript>
+
+		<script>
+			AOS.init();
+		</script>
 
 		<div id="nav-placeholder"></div>
 		<script src="/js/navbar.js"></script>
@@ -48,100 +54,104 @@
 			<!-- End of Header -->
 
 			<!-- Start of Details Section -->
-			<h1 class="vshacks-sectionheader">About vsHacks</h1>
+			<div>
+				<h1 class="vshacks-sectionheader" data-aos="zoom-out-up">About vsHacks</h1>
 
-			<div class="container-sm d-flex flex-column" style="max-width: 60rem; margin-top: 2.5rem">
-				<div class="card text-white vshacks-infocard expand-on-hover">
-					<div class="row g-4">
-						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
-							<img
-								src="/assets/images/illustrations/undraw_people.svg"
-								class="img-fluid rounded-start"
-								alt="Drawing of people"
-							/>
-						</div>
-						<div class="col">
-							<div class="card-body">
-								<h5 class="display-6 card-title">Meet New People</h5>
-								<p class="card-text">
-									At vsHacks, you will have the unique opportunity to work with like-minded students from all across the
-									Greater Vancouver area. Build a team of up to four people and start hacking!
-								</p>
+				<div class="container-sm d-flex flex-column" style="max-width: 60rem; margin-top: 2.5rem">
+					<div class="card text-white vshacks-infocard expand-on-hover" data-aos="fade-right">
+						<div class="row g-4">
+							<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
+								<img
+									src="/assets/images/illustrations/undraw_people.svg"
+									class="img-fluid rounded-start"
+									alt="Drawing of people"
+								/>
+							</div>
+							<div class="col">
+								<div class="card-body">
+									<h5 class="display-6 card-title">Meet New People</h5>
+									<p class="card-text">
+										At vsHacks, you will have the unique opportunity to work with like-minded students from all across the
+										Greater Vancouver area. Build a team of up to four people and start hacking!
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="card text-white align-self-end vshacks-infocard expand-on-hover">
-					<div class="row g-5">
-						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
-							<img
-								src="/assets/images/illustrations/undraw_knowledge.svg"
-								class="img-fluid rounded-start"
-								alt="Drawing of people"
-							/>
-						</div>
-						<div class="col">
-							<div class="card-body">
-								<h5 class="display-6 card-title">Learn New Things</h5>
-								<p class="card-text">
-									Regardless of your skill level, we're certain that you'll learn something new at vsHacks from our
-									experienced mentors. From web development to Discord bots, our workshops have something for everyone.
-									Check out our <a class="link-light" href="/schedule">schedule</a> for further details.
-								</p>
+	
+					<div class="card text-white align-self-end vshacks-infocard expand-on-hover" data-aos="fade-left">
+						<div class="row g-5">
+							<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
+								<img
+									src="/assets/images/illustrations/undraw_knowledge.svg"
+									class="img-fluid rounded-start"
+									alt="Drawing of people"
+								/>
+							</div>
+							<div class="col">
+								<div class="card-body">
+									<h5 class="display-6 card-title">Learn New Things</h5>
+									<p class="card-text">
+										Regardless of your skill level, we're certain that you'll learn something new at vsHacks from our
+										experienced mentors. From web development to Discord bots, our workshops have something for everyone.
+										Check out our <a class="link-light" href="/schedule">schedule</a> for further details.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="card text-white vshacks-infocard expand-on-hover">
-					<div class="row g-4">
-						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
-							<img
-								src="/assets/images/illustrations/undraw_deliveries.svg"
-								class="img-fluid rounded-start"
-								alt="Drawing of people"
-							/>
-						</div>
-						<div class="col">
-							<div class="card-body">
-								<h5 class="display-6 card-title">Win Awesome Prizes</h5>
-								<p class="card-text">
-									Thanks to our <a class="link-light" href="#sponsors">sponsors</a>, we're excited to offer
-									approximately $2000 dollars worth of software for all participants. A specific list of prizes is
-									forthcoming.
-								</p>
+	
+					<div class="card text-white vshacks-infocard expand-on-hover" data-aos="fade-right">
+						<div class="row g-4">
+							<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
+								<img
+									src="/assets/images/illustrations/undraw_deliveries.svg"
+									class="img-fluid rounded-start"
+									alt="Drawing of people"
+								/>
+							</div>
+							<div class="col">
+								<div class="card-body">
+									<h5 class="display-6 card-title">Win Awesome Prizes</h5>
+									<p class="card-text">
+										Thanks to our <a class="link-light" href="#sponsors">sponsors</a>, we're excited to offer
+										approximately $2000 dollars worth of software for all participants. A specific list of prizes is
+										forthcoming.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div class="card text-white align-self-end vshacks-infocard expand-on-hover">
-					<div class="row g-4">
-						<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
-							<img
-								src="/assets/images/illustrations/undraw_movie_night.svg"
-								class="img-fluid rounded-start"
-								alt="Drawing of people"
-							/>
-						</div>
-						<div class="col">
-							<div class="card-body">
-								<h5 class="display-6 card-title">Have Fun</h5>
-								<p class="card-text">
-									Though our main focus is programming, we hope that you'll also have fun while doing so. To this end,
-									we will be hosting several events and games outside of programming. Activities will range from games
-									of Jackbox, to a Minecraft lockout competition!
-								</p>
+	
+					<div class="card text-white align-self-end vshacks-infocard expand-on-hover" data-aos="fade-left">
+						<div class="row g-4">
+							<div class="col d-flex align-items-center justify-content-center" style="margin-left: 10px">
+								<img
+									src="/assets/images/illustrations/undraw_movie_night.svg"
+									class="img-fluid rounded-start"
+									alt="Drawing of people"
+								/>
+							</div>
+							<div class="col">
+								<div class="card-body">
+									<h5 class="display-6 card-title">Have Fun</h5>
+									<p class="card-text">
+										Though our main focus is programming, we hope that you'll also have fun while doing so. To this end,
+										we will be hosting several events and games outside of programming. Activities will range from games
+										of Jackbox, to a Minecraft lockout competition!
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			
 			<!-- End of Details Section -->
 
 			<!-- Start of FAQ Section -->
-			<div class="container-sm vshacks-section">
+			<div class="container-sm vshacks-section" data-aos="zoom-out-up" style="max-width: 40rem;">
 				<h1 id="faq" class="vshacks-sectionheader">Frequently Asked Questions</h1>
 				<div class="accordion" id="faq-accordion">
 					<div class="accordion-item vshacks-faq">
@@ -291,23 +301,23 @@
 
 			<!-- Start of Sponsors Sections -->
 			<div class="container-fluid vshacks-section">
-				<h1 id="sponsors" class="vshacks-sectionheader">Sponsors</h1>
+				<h1 id="sponsors" class="vshacks-sectionheader" data-aos="zoom-out-up">Sponsors</h1>
 
-				<a href="https://replit.com/~">
+				<a href="https://replit.com/~" data-aos="zoom-in">
 					<img
 						width="400"
 						class="img-fluid mx-auto d-block vshacks-sponsor expand-on-hover"
 						src="/assets/images/sponsors/replit.png"
 					/>
 				</a>
-				<a href="https://www.taskade.com/">
+				<a href="https://www.taskade.com/" data-aos="zoom-in">
 					<img
 						width="400"
 						class="img-fluid mx-auto d-block vshacks-sponsor expand-on-hover"
 						src="/assets/images/sponsors/taskade.png"
 					/>
 				</a>
-				<a href="https://www.echo3d.co/">
+				<a href="https://www.echo3d.co/" data-aos="zoom-in">
 					<img
 						width="400"
 						class="img-fluid mx-auto d-block vshacks-sponsor expand-on-hover"
@@ -315,7 +325,7 @@
 					/>
 				</a>
 
-				<a href="https://1password.com/">
+				<a href="https://1password.com/" data-aos="zoom-in">
 					<img
 						width="400"
 						class="img-fluid mx-auto d-block vshacks-sponsor expand-on-hover"
@@ -323,7 +333,7 @@
 					/>
 				</a>
 
-				<a href="https://gen.xyz/">
+				<a href="https://gen.xyz/" data-aos="zoom-in">
 					<img
 						width="250"
 						class="img-fluid mx-auto d-block vshacks-sponsor expand-on-hover"
@@ -331,7 +341,7 @@
 					/>
 				</a>
 
-				<div class="container" style="max-width: 40rem; color: white !important">
+				<div class="container" style="max-width: 40rem; color: white !important" data-aos="zoom-in">
 					<div class="alert alert-info text-light">
 						<h4 class="alert-heading"><i class="fa-solid fa-handshake-angle"></i> Want to become a sponsor?</h4>
 						If your company or organization is interested in sponsoring vsHacks, please get in touch through email:
