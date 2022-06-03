@@ -6,6 +6,6 @@ fetch('/partials/navbar.html')
 		const collapseButton = document.getElementById('navbar-collapse-button');
 		collapseButton.addEventListener('click', () => {
 			const nav = document.getElementById('vshacks-nav');
-			nav.classList.toggle('bg-dark');
+			nav.classList.toggle('vshacks-bg-dark');
 		});
 	});

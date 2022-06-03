@@ -1,6 +1,11 @@
+:root {
+	--skyline-size: 120rem;
+}
+
 body {
 	background: url('/assets/images/background/skyline-transparent.png') bottom repeat-x fixed padding-box border-box,
 		linear-gradient(to bottom, #270240, #0a0543, #073e3e) 100%;
+		background-size: var(--skyline-size);
 	animation-name: scroll;
 	animation-duration: 60s;
 	animation-timing-function: linear;
@@ -202,6 +207,10 @@ body {
 	background-color: #f1f1f1;
 }
 
+.vshacks-bg-dark {
+	background-color: #0e0e0e;
+}
+
 :root {
 	--bs-font-sans-serif: 'DM Sans' !important;
 }
@@ -233,7 +242,7 @@ body {
 		background-position-x: 0vw;
 	}
 	to {
-		background-position-x: 100vw;
+		background-position-x: var(--skyline-size);
 	}
 }
 
