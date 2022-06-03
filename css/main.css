@@ -1,3 +1,12 @@
+body {
+	background: url('/assets/images/background/skyline-transparent.png') bottom repeat-x fixed padding-box border-box,
+		linear-gradient(to bottom, #270240, #0a0543, #073e3e) 100%;
+	animation-name: scroll;
+	animation-duration: 60s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
 #logo {
 	width: 50px;
 	height: 50px;
@@ -7,22 +16,35 @@
 	color: #ffffff;
 	font-family: 'Fira Code';
 	height: 100vh;
-	background-image: url('/assets/images/background/skyline.png');
-	background-size: cover;
-	background-repeat: repeat;
-	background-position: bottom;
+
 	padding-bottom: 50px;
 	margin-bottom: 20px;
+}
 
-	animation-name: scroll;
-	animation-duration: 60s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+#main-description,
+#header-date {
+	font-family: 'Fira Code';
+	color: #ffffff00;
 }
 
 #description {
 	font-family: 'Fira Code';
-	color: #ffffff00;
+}
+
+#navbar-collapse-button {
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+	border: none;
+	opacity: 0.6;
+}
+
+#navbar-collapse-button:hover {
+	opacity: 1;
+}
+
+#register-button {
+	margin-bottom: 12px;
 }
 
 #noscript-container {
@@ -30,7 +52,6 @@
 	top: 0px;
 	left: 0px;
 	z-index: 9999;
-	height: 100%;
 	width: 100%;
 	background-color: #ffffff;
 }
@@ -47,7 +68,7 @@
 	padding-left: 24px;
 	padding-right: 24px;
 	width: 100%;
-	background: transparent !important;
+	background: transparent;
 }
 
 .hover-underline-animation {
@@ -87,7 +108,12 @@
 	margin-top: 5rem;
 }
 
+.vshacks-carouselbutton {
+	background-color: white !important;
+}
+
 .vshacks-carouseltext {
+	color: white;
 	background-color: #000000a0;
 	border-radius: 10px;
 	padding-top: 10px;
@@ -95,10 +121,17 @@
 	width: 100%;
 }
 
+.vshacks-faq {
+	background-color: transparent !important;
+	border: none !important;
+}
+
 .vshacks-faqbutton {
 	outline: 0px !important;
 	-webkit-appearance: none;
 	box-shadow: none !important;
+	background-color: transparent !important;
+	border: none !important;
 }
 
 .vshacks-sponsor {
@@ -116,6 +149,48 @@
 	font-size: 5vw;
 }
 
+.vshacks-statscard {
+	transition: transform 0.25s ease;
+	color: white;
+	margin: 8px;
+	border-radius: 10px;
+	padding-left: 16px;
+	padding-block-start: 12px;
+	padding-block-end: 12px;
+}
+
+.vshacks-statscard:hover {
+	transform: scale(1.05);
+}
+
+.vshacks-statstitle {
+	font-family: 'vshacks-main';
+	font-size: 2rem;
+	max-width: 5rem;
+}
+
+.vshacks-infocard {
+	transition: transform 0.25s ease;
+	max-width: 40rem;
+	padding: 5px;
+	margin-bottom: 3rem;
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.vshacks-infocard:hover {
+	transform: scale(1.05);
+}
+
+.vshacks-clublogo {
+	margin-bottom: 1rem !important;
+	transition: transform 0.25s ease;
+}
+
+.vshacks-clublogo:hover {
+	transform: scale(1.05);
+}
+
 .content {
 	padding: 0px 18px;
 	margin-top: 10px;
@@ -125,6 +200,10 @@
 	border-radius: 15px;
 
 	background-color: #f1f1f1;
+}
+
+:root {
+	--bs-font-sans-serif: 'DM Sans' !important;
 }
 
 @font-face {
@@ -141,6 +220,11 @@
 @font-face {
 	font-family: 'Fira Code';
 	src: url(../assets/fonts/fira-code.ttf);
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url(../assets/fonts/dm-sans.ttf);
 }
 
 /* The animation code */
