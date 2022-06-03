@@ -1,11 +1,10 @@
 body {
 	background: url('/assets/images/background/skyline-transparent.png') bottom repeat-x fixed padding-box border-box,
-		linear-gradient(to bottom, #310e68, #410a2c) 100%;
+		linear-gradient(to bottom, #120c18, #243b44) 100%;
 	animation-name: scroll;
 	animation-duration: 60s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	background-color: #310e68;
 }
 
 #logo {
