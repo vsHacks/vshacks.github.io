@@ -1,4 +1,4 @@
-const REGISTRATION_END_DATE = new Date(2022, 5, 11, 59, 59);
+/*const REGISTRATION_END_DATE = new Date(2022, 5, 11, 59, 59);
 
 const shouldShowReminder = new Date() < REGISTRATION_END_DATE;
 let alreadyShownReminder = false;
@@ -13,3 +13,4 @@ document.addEventListener('scroll', () => {
 		reminder.show();
 	}
 });
+*/
