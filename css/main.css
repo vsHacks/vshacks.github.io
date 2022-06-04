@@ -243,7 +243,7 @@ html {
 	mask-repeat: no-repeat;
 	mask-position: center;
 
-	height: 200px;
+
 	margin: auto;
 	overflow: hidden;
 	position: relative;
@@ -252,7 +252,7 @@ html {
 
 .slider::before,
 .slider::after {
-	height: 200px;
+
 	position: absolute;
 	width: 200px;
 	z-index: 2;
@@ -278,6 +278,6 @@ html {
 }
 
 .slider .slide {
-	height: 200px;
+
 	width: 200px;
 }
