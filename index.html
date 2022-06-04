@@ -41,6 +41,27 @@
 		<div id="nav-placeholder"></div>
 		<script src="/js/navbar.js"></script>
 
+		<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+			<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false" id="registration-reminder">
+				<div class="toast-header">
+					<img src="/assets/images/icons/icon_white.svg" height="30px" class="rounded me-2" />
+					<span class="me-auto" style="font-size: 18px">vsHacks Team</strong>
+				</div>
+				<div class="toast-body">
+					<p>
+						Registration for vsHacks 2022 is open, and will be until midnight, June 23, 2022.
+					</p>
+					
+						Secure your spot now and feel free to invite your friends too. We hope to see you there!
+					<div class="mt-2 pt-2">
+						<a href="/register" class="btn btn-primary btn-sm">Register now</a>
+						<button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Dismiss</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/js/registration-reminder.js"></script>
+
 		<div class="container-fluid">
 			<!-- Start of Header -->
 			<div class="row justify-content-center align-items-center" id="header">
