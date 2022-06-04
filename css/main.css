@@ -239,7 +239,7 @@ html {
 .slider {
 	-webkit-mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
 	mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
-	mask-size: 86vw;
+	mask-size: 84vw;
 	mask-repeat: no-repeat;
 	mask-position: center;
 
