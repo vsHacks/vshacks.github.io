@@ -219,62 +219,65 @@ html {
 	overflow-x: hidden;
 }
 
-
-
-
 @-webkit-keyframes iscroll {
 	0% {
-	  transform: translateX(0);
+		transform: translateX(0);
 	}
 	100% {
-	  transform: translateX(calc(-250px * 10));
+		transform: translateX(calc(-200px * 10));
 	}
-  }
-  
-  @keyframes iscroll {
+}
+
+@keyframes iscroll {
 	0% {
-	  transform: translateX(0);
+		transform: translateX(0);
 	}
 	100% {
-	  transform: translateX(calc(-250px * 10));
+		transform: translateX(calc(-200px * 10));
 	}
-  }
-  .slider {
+}
+.slider {
 	-webkit-mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
 	mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
 	mask-size: 86vw;
 	mask-repeat: no-repeat;
 	mask-position: center;
 
-	height: 250px;
+	height: 200px;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
 	width: 100vw;
-  }
-  .slider::before, .slider::after {
-	height: 250px;
+}
+
+.slider::before,
+.slider::after {
+	height: 200px;
 	position: absolute;
-	width: 250px;
+	width: 200px;
 	z-index: 2;
-  }
-  .slider::after {
+}
+
+.slider::after {
 	right: 0;
 	top: 0;
 	transform: rotateZ(180deg);
-  }
-  .slider::before {
+}
+
+.slider::before {
 	left: 0;
 	top: 0;
-  }
-  .slider .slide-track {
+}
+
+.slider .slide-track {
 	-webkit-animation: iscroll 40s linear infinite;
 	animation: iscroll 40s linear infinite;
-	
+
 	display: flex;
-	width: calc(250px * 20);
-  }
-  .slider .slide {
-	height: 250px;
-	width: 250px;
-  }
+	width: calc(200px * 20);
+}
+
+.slider .slide {
+	height: 200px;
+	width: 200px;
+}
