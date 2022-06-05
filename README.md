@@ -20,9 +20,3 @@ Alternatively, if you are using the Visual Studio Code editor for development,
 you may install the [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension,
 which will host a local server for you. To open a preview of the website to the side,
 simply right-click on `index.html`.
-
-## Todo
-
-| Sprint       | Due |
-| ------------ | --- |
-| Landing Page | TBA |
