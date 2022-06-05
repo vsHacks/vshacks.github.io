@@ -167,7 +167,7 @@ body {
 }
 
 .vshacks-infocard {
-	max-width: 40rem;
+	max-width: 46rem;
 	padding: 5px;
 	margin-bottom: 3rem;
 	background-color: transparent !important;
@@ -236,6 +236,14 @@ html {
 		transform: translateX(calc(-200px * 10));
 	}
 }
+
+
+@media (max-width: 767px) {
+	.hidden-mobile {
+	  	display: none;
+	}
+}
+
 .slider {
 	-webkit-mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
 	mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
