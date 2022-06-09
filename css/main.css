@@ -219,74 +219,10 @@ html {
 	overflow-x: hidden;
 }
 
-@-webkit-keyframes iscroll {
-	0% {
-		transform: translateX(0);
-	}
-	100% {
-		transform: translateX(calc(-200px * 10));
-	}
-}
-
-@keyframes iscroll {
-	0% {
-		transform: translateX(0);
-	}
-	100% {
-		transform: translateX(calc(-200px * 10));
-	}
-}
-
 @media (max-width: 767px) {
 	.hidden-mobile {
 		display: none;
 	}
-}
-
-.slider {
-	-webkit-mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
-	mask-image: linear-gradient(to right, transparent, black, black, black, transparent);
-	mask-size: 84vw;
-	mask-repeat: no-repeat;
-	mask-position: center;
-
-	height: 250px;
-	margin: auto;
-	overflow: hidden;
-	position: relative;
-	width: 100vw;
-}
-
-.slider::before,
-.slider::after {
-	height: 250px;
-	position: absolute;
-	width: 200px;
-	z-index: 2;
-}
-
-.slider::after {
-	right: 0;
-	top: 0;
-	transform: rotateZ(180deg);
-}
-
-.slider::before {
-	left: 0;
-	top: 0;
-}
-
-.slider .slide-track {
-	-webkit-animation: iscroll 40s linear infinite;
-	animation: iscroll 40s linear infinite;
-
-	display: flex;
-	width: calc(200px * 20);
-}
-
-.slider .slide {
-	height: 250px;
-	width: 200px;
 }
 
 #schedule-date-nav .nav-link {
