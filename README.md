@@ -1,22 +1,19 @@
-# vshacks.tech
+# vshacks.github.io
 
-The official website for vsHacks 2022.
-
-## Contributing
-
-Pull requests and issues are highly encouraged as long as they are in good faith.
-
-### Running with the Python web server
-
-Running the website on a local web-server is useful for testing.
-
+## Project setup
 ```
-python3 -m http.server
+npm install
 ```
 
-### Using Live Preview
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Alternatively, if you are using the Visual Studio Code editor for development,
-you may install the [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension,
-which will host a local server for you. To open a preview of the website to the side,
-simply right-click on `index.html`.
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
