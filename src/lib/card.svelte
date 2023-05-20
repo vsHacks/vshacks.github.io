@@ -19,6 +19,7 @@
         padding: 50px;
         max-width: 600px;
         margin-bottom: 30px;
+        box-shadow: -1px 5px 10px lightgrey;
     }
 
     .card-image {
