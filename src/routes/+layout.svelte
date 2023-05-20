@@ -16,6 +16,10 @@
         padding: 0;
     }
 
+    :global(p) {
+        font-size: 17px;
+    }
+
     :global(html) {
         background-color: #F6F8FA;
     }

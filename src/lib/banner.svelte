@@ -5,7 +5,7 @@
     onMount(async () => {
         for (let i = 0; i < full_title.length; i++) {
             title += full_title[i];
-            await new Promise(r => setTimeout(r, 80));
+            await new Promise(r => setTimeout(r, 80 + Math.floor((Math.random() * 30))));
         }
     });
 </script>
