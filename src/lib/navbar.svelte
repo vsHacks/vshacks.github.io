@@ -12,15 +12,17 @@
 
 <style>
     .nav {
-        width: 100%;
-        height: 50px;
         background-color: #D0D3D8;
+        width: 100%;
     }
 
     .nav-links {
         max-width: 800px;
         height: 100%;
         display: flex;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px 0;
     }
 
     .logo {

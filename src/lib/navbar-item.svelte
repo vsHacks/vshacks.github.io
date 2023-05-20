@@ -6,9 +6,8 @@
 
 <style>
     .navbar-item {
-        height: 100%;
         width: 50px;
-        background-color: #aaacb1;
+        background-color: rgba(0, 0, 0, 0);
         color: black;
         text-align: center;
         line-height: 50px;
@@ -16,9 +15,13 @@
         text-decoration: none;
         transition: 0.1s;
         margin: 0 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 0 2px grey;
     }
 
     .navbar-item:hover {
-        background-color: #7f8186;
+        border-width: 5px;
+        box-shadow: 0 0 0 3px grey;
     }
+
 </style>
