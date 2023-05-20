@@ -26,7 +26,7 @@
 <style>
     .card {
         background-color: #F5F4FA;
-        padding: 50px;
+        padding: 30px;
         max-width: 600px;
         margin-bottom: 30px;
         box-shadow: -1px 5px 10px lightgrey;
