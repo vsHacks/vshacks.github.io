@@ -23,7 +23,6 @@
         height: 300px;
         background-image: linear-gradient(to right, #7D52F7, #BC41EE);
         display: table;
-        position: relative;
     }
 
     .vcenter {

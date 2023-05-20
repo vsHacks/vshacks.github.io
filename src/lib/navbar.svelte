@@ -13,7 +13,9 @@
 <style>
     .nav {
         background-color: #D0D3D8;
+        box-shadow: 0px 3px 5px rgba(100, 100, 100);
         width: 100%;
+        position: relative;
     }
 
     .nav-links {
