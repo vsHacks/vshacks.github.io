@@ -9,7 +9,7 @@
     import knowledge from '$lib/assets/undraw_knowledge.svg';
     import fun from '$lib/assets/undraw_movie_night.svg';
     
-    const profileurls = Object.keys(import.meta.glob("$lib/assets/pfp/*.png", { eager: true }));
+    const profileurls = Object.keys(import.meta.glob("$lib/assets/pfp/*", { eager: true }));
 </script>
 
 <Banner/>
