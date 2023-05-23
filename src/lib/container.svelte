@@ -4,9 +4,18 @@
 </div>
 
 <style>
+    @media only screen and (max-width: 1200px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
     .container {
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 20px;
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        margin: 20px 30px;
+        justify-content: center;
     }
 </style>
