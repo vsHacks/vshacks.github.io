@@ -1,80 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <title>Schedule</title>
-      <link rel="stylesheet" href="/css/main.css" />
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.min.css"
-        rel="stylesheet"
-      />
-      <link
-        rel="icon"
-        type="image/x-icon"
-        href="/assets/images/icons/favicon.ico"
-      />
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"
-      ></script>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
-    </head>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+			<title>Schedule</title>
+			<link rel="stylesheet" href="/css/main.css" />
+			<link
+				href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.min.css"
+				rel="stylesheet"
+			/>
+			<link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico" />
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+				crossorigin="anonymous"
+			></script>
+			<link
+				rel="stylesheet"
+				href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+				integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+				crossorigin="anonymous"
+				referrerpolicy="no-referrer"
+			/>
+		</head>
 
-    <body>
-      <noscript>
-        <div id="noscript-container">
-          <p style="margin-left: 10px">
-            Please enable JavaScript; this website will not work properly
-            without it.
-          </p>
-        </div>
-      </noscript>
+		<body>
+			<noscript>
+				<div id="noscript-container">
+					<p style="margin-left: 10px">Please enable JavaScript; this website will not work properly without it.</p>
+				</div>
+			</noscript>
 
-      <div id="nav-placeholder"></div>
-      <script src="/js/navbar.js"></script>
+			<div id="nav-placeholder"></div>
+			<script src="/js/navbar.js"></script>
 
-      <!-- Start of Header -->
-      <div class="row justify-content-center align-items-center" id="header">
-        <div>
-          <h1 class="display-1 text-center">Schedule</h1>
-          <h5
-            id="description"
-            class="container-fluid description"
-            style="max-width: 40rem"
-          >
-            <center>
-              <i class="fa-solid fa-calendar-day"></i> Coming Soon
-            </center>
-          </h5>
+			<!-- Start of Header -->
+			<div class="row justify-content-center align-items-center" id="header">
+				<div>
+					<h1 class="display-1 text-center">Schedule</h1>
+					<h5 id="description" class="container-fluid description" style="max-width: 40rem">
+						<center><i class="fa-solid fa-calendar-day"></i> June 24 - June 29, 2022</center>
+					</h5>
+				</div>
+			</div>
+			<!-- End of Header -->
 
-          <div
-            class="d-flex justify-content-center"
-            style="max-width: 40rem; margin-top: 50px; padding: 50px"
-          >
-            <p>
-              For events, there will be Minecraft, Jackbox, Scribbl, and other
-              Party games.
-              <br /><br />
-              For workshops, there will be "Pitching a product" and "Intro to
-              Git", among others
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- End of Header -->
+			<div class="container" style="max-width: 60rem">
+				<div class="container-fluid" style="max-width: 40rem; margin-top: 2.5rem">
+					<div class="alert alert-info">
+						<h4 class="alert-heading text-center">
+							<i class="fa-solid fa-triangle-exclamation"></i> Subject to Change
+						</h4>
+						Note that the schedule can be changed at any time. Events may be added or removed depending on participant
+						engagement and other factors.
+					</div>
+				</div>
 
-      <div id="footer-placeholder"></div>
-      <script src="/js/footer.js"></script>
-    </body>
-  </html>
+				<div class="timeline">
+					<div class="timeline-row">
+						<div class="timeline-time">4:30 - 5:30 PM<small>June 23</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Meta</span>
+							<h5>Opening Ceremony</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">9:00 - 10:00 PM<small>June 24</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-pen-ruler"></i>
+							<span class="badge badge-pill">Event</span>
+							<h5>Jackbox</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">9:00 - 10:00 PM<small>June 25</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-pen-ruler"></i>
+							<span class="badge badge-pill">Event</span>
+							<h5>Hypixel</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">8:00 - 8:40 PM<small>June 26</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Workshop</span>
+							<h5>How to Create Your Final Video</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">9:00 - 10:00 PM<small>June 26</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Event</span>
+							<h5>Misc. Party Games</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">7:00 - 11:59 PM<small>June 27</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Workshop</span>
+							<h5>How to Create Your Final Video</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">7:00 - 11:59 PM<small>June 27</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Event</span>
+							<h5>Misc. Party Games</h5>
+						</div>
+					</div>
+
+					<div class="timeline-row">
+						<div class="timeline-time">4:30 - 5:30 PM<small>June 28</small></div>
+						<div class="timeline-content">
+							<i class="fa-solid fa-ribbon"></i>
+							<span class="badge badge-pill">Meta</span>
+							<h5>Closing Ceremony</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-placeholder"></div>
+			<script src="/js/footer.js"></script>
+		</body>
+	</html>
 </html>
