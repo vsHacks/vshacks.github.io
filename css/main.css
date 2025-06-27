@@ -98,6 +98,8 @@ body {
 	padding-right: 24px;
 	width: 100%;
 	background: transparent;
+	z-index: 1;
+	
 }
 
 .hover-underline-animation {
