@@ -421,3 +421,18 @@ html {
 		display: none;
 	}
 }
+
+/* remove when notice is over*/
+.fixed {
+  position: fixed;
+  top: 75px;
+  left: 10vw;
+  width: 80vw;
+  display:flex;
+  justify-content: center;
+	align-items: center;
+  background-color: rgba(212, 8, 36, 0.4);
+  border-radius: 6px;
+	height: 5vh;
+	font-size: 14pt;
+}
