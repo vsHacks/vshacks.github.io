@@ -315,7 +315,7 @@ html { overflow-x: hidden; }
   margin-bottom: 0.2rem;
 }
 
-/* Photo area: ~75% of the card height */
+/* Photo areea: ~75% of the card height */
 .photo-wrap{
   width: 100%;
   flex: 0 0 75%;
