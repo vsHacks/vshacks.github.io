@@ -1,6 +1,6 @@
 # vshacks.tech
 
-The official website for vsHacks 2024.
+The official website for vsHacks.
 
 ## Contributing
 
