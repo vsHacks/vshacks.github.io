@@ -66,3 +66,9 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+p.temporary-text {
+  font-size: 24px;
+  height: auto;
+  margin-top: 20px;
+}
