@@ -17,6 +17,21 @@
   justify-content: center; 
 }
 
+#vert-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center; 
+}
+
+#time-zone-switch {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+
 img {
   max-width: 100%; 
   height: auto;
@@ -72,3 +87,4 @@ p.temporary-text {
   height: auto;
   margin-top: 20px;
 }
+
