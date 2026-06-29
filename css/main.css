@@ -217,22 +217,20 @@ html { overflow-x: hidden; }
   text-align: center;
 }
 
-/* Grid */
-.team-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+/* Flexbox */
+.team-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
 }
-@media (min-width: 576px) {
-  .team-grid { grid-template-columns: repeat(2, 1fr); }
+.team-flex > .profile-card {
+  flex: 0 1 320px;
 }
-/* Desktop: keep “3 across”; center the last two cards */
-@media (min-width: 992px) {
-  .team-grid { grid-template-columns: repeat(6, 1fr); }
-  .team-grid > .profile-card { grid-column: span 2; }
-  .team-grid > .profile-card:nth-child(4) { grid-column: 2 / span 2; }
-  .team-grid > .profile-card:nth-child(5) { grid-column: 4 / span 2; }
-}
+
 
 /* Bigger cards (~1.5x) with hover-to-bio behavior */
 .profile-card{

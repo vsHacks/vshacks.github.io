@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node verify_new_sections.js)",
+      "Bash(node verify_advitya.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"http://localhost:8123/assets/images/execs/advitya%20gemawat.jpg\")",
+      "Bash(node verify_advitya_face.js)",
+      "Bash(node verify_center.js)"
+    ]
+  }
+}
