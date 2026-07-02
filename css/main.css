@@ -22,8 +22,7 @@ body {
   color: white;
   font-family: 'Fira Code';
   height: 100vh;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #main-description, #header-date { font-family: 'Fira Code'; color: #ffffff00; }
@@ -97,6 +96,26 @@ footer { margin-top: 30px; }
 html { overflow-x: hidden; }
 
 @media (max-width: 767px) { .hidden-mobile { display: none; } }
+
+/* Responsive YouTube embed */
+.video-wrap {
+  position: relative;
+  width: 90%;
+  max-width: 560px;
+  margin: 1.5rem auto 0;
+  padding-bottom: calc(56.25% * 0.9);
+}
+.video-wrap iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+@media (min-width: 576px) {
+  .video-wrap { width: 80%; padding-bottom: calc(56.25% * 0.8); }
+}
+@media (min-width: 992px) {
+  .video-wrap { width: 560px; padding-bottom: 315px; }
+}
 
 #schedule-date-nav .nav-link { font-family: 'Poppins'; color: rgb(192, 192, 192); border: none; }
 #schedule-date-nav .nav-link.active { color: white; background-color: transparent; }
