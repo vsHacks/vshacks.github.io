@@ -51,15 +51,54 @@
 }
 
 .winner-year a {
+	position: relative;
+	display: inline-block;
+	clip-path: inset(0);
+
 	color: #ffffff;
-	text-decoration: underline;
-	text-underline-offset: 3px;
+	text-decoration: none;
+
+	padding-bottom: 1px;
+
 	transition: color 140ms ease;
+}
+
+.winner-year a::before,
+.winner-year a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	width: 100%;
+	height: 2px;
+
+	transition: transform 300ms ease;
+}
+
+.winner-year a::before {
+	background: #ffffff;
+	transform: translateX(0);
+}
+
+.winner-year a::after {
+	background: #00f0ff;
+	transform: translateX(100%);
 }
 
 .winner-year a:hover,
 .winner-year a:focus-visible {
 	color: #00f0ff;
+}
+
+.winner-year a:hover::before,
+.winner-year a:focus-visible::before {
+	transform: translateX(-100%);
+}
+
+.winner-year a:hover::after,
+.winner-year a:focus-visible::after {
+	transform: translateX(0);
 }
 
 .winner-title h2 {
